@@ -1,6 +1,10 @@
 import React from 'react';
+import SimpsonsQuote from '../containers/DisplayQuotes';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <SimpsonsQuote />
+    </>
+  );
 }
-  
